@@ -252,6 +252,7 @@ Destroy complete! Resources: 6 destroyed.
 
 
 ```
+```
 Anastass-MacBook-Pro:HOWTO-OCI-terraform-free-demo davar$ diff locals.tf locals.tf.ORIG
 18c18
 <   centos_linux_image_ocid = "ocid1.image.oc1.phx.aaaaaaaaknx2ppduoemdgkwck7ghc3kok74ljctqaelczm5jipop3cef55pq"
