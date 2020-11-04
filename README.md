@@ -1,5 +1,5 @@
 # HOWTO-OCI-terraform-demo
-# HOWTO-OCI-terraform-demo
+
 ### OCI-terraform-demo
 
 #### 1.Install oci-cli and terraform 
