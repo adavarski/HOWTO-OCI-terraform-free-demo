@@ -258,8 +258,7 @@ Anastass-MacBook-Pro:HOWTO-OCI-terraform-free-demo davar$ diff locals.tf locals.
 <   centos_linux_image_ocid = "ocid1.image.oc1.phx.aaaaaaaaknx2ppduoemdgkwck7ghc3kok74ljctqaelczm5jipop3cef55pq"
 ---
 >   centos_linux_image_ocid = data.oci_core_images.centos_linux_image.images[0]["id"]
-Anastass-MacBook-Pro:HOWTO-OCI-terraform-free-demo davar$ digg vcn.tf vcn.tf.ORIG 
--bash: digg: command not found
+
 Anastass-MacBook-Pro:HOWTO-OCI-terraform-free-demo davar$ diff vcn.tf vcn.tf.ORIG 
 56c56
 <   availability_domain = local.ad_3_name
